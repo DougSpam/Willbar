@@ -1,0 +1,63 @@
+.container__titulo {
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+.container__card__wrap {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    gap: 16px; 
+    padding: 16px;
+    margin-bottom: 2em;
+    height: auto;
+}
+
+.container__card {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    max-width: calc(25% - 32px);
+}
+
+.container__card img {
+    width: 100%;
+    height: auto;
+}
+
+.container__card--desc {
+    padding: 16px;
+}
+
+.card__subtitulo {
+    margin: 0 0 8px;
+}
+
+.card__compras {
+    margin-top: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card__compras button {
+    background-image: url('../img/carrinho.png');
+    background-repeat: no-repeat;
+    background-color: #f8f8f8;
+    border: none;
+    padding: 16px;
+    cursor: pointer;
+    transition: 0.9s;
+}
+
+.card__compras button:hover {
+    background-color: #0056b3;
+}

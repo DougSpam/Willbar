@@ -1,0 +1,24 @@
+@media (max-width: 900px) {
+    .container__card {
+        max-width: calc(50% - 32px);
+    }
+}
+
+@media (max-width: 600px) {
+    .container__card {
+        max-width: calc(100% - 32px);
+        padding: 24px; 
+    }
+
+    .container__card--desc {
+        padding: 24px;
+    }
+
+    .card__subtitulo {
+        font-size: 22px; 
+    }
+
+    .card__compras button {
+        padding: 20px; 
+    }
+}

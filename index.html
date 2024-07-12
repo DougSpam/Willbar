@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Will Bar</title>
+    <link rel="stylesheet" href="assets/styles/reset.css">
+
+    <link rel="stylesheet" href="assets/styles/global.css">
+    <link rel="stylesheet" href="assets/styles/header.css">
+    <link rel="stylesheet" href="assets/styles/main.css">
+    <link rel="stylesheet" href="assets/styles/footer.css">
+    <link rel="stylesheet" href="assets/styles/overlay.css">
+    <link rel="stylesheet" href="assets/styles/midia.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="container__header">
+                <img src="assets/img/HamburguerLogo.png" alt="">
+                <h1>Will Bar</h1>
+                <p>Endereço de Teste 199</p>
+                <button id="time-button">Seg a Sex 18h as 22h</button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container__titulo">
+            <h1>Conheça nossas bebidas!</h1>
+        </div>
+
+        <div class="container__card__wrap">
+            <div class="container__card">
+                <img src="assets/img/coca.svg" alt="">
+                <div class="container__card--desc">
+                    <h2 class="card__subtitulo">Coca-Cola</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed bibendum, mauris vel convallis suscipit, velit tellus elementum velit, non varius velit ligula eu velit.</p>
+
+                    <div class="card__compras">
+                        <span>R$ 2,50</span>
+                        <button class="add-to-cart"></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container__card">
+                <img src="assets/img/coca.svg" alt="">
+                <div class="container__card--desc">
+                    <h2 class="card__subtitulo">Vodka</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed bibendum, mauris vel convallis suscipit, velit tellus elementum velit, non varius velit ligula eu velit.</p>
+
+                    <div class="card__compras">
+                        <span>R$ 2,50</span>
+                        <button class="add-to-cart"></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container__card">
+                <img src="assets/img/coca.svg" alt="">
+                <div class="container__card--desc">
+                    <h2 class="card__subtitulo">Heineken</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed bibendum, mauris vel convallis suscipit, velit tellus elementum velit, non varius velit ligula eu velit.</p>
+
+                    <div class="card__compras">
+                        <span>R$ 2,50</span>
+                        <button class="add-to-cart"></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container__card">
+                <img src="assets/img/coca.svg" alt="">
+                <div class="container__card--desc">
+                    <h2 class="card__subtitulo">Skol</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed bibendum, mauris vel convallis suscipit, velit tellus elementum velit, non varius velit ligula eu velit.</p>
+
+                    <div class="card__compras">
+                        <span>R$ 2,50</span>
+                        <button class="add-to-cart"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <button id="cart-button">Meu Carrinho: <span id="cart-count">0</span> itens</button>
+    </footer>
+
+    <div id="cart-overlay" class="overlay">
+        <div class="overlay-content">
+            <span class="close-button" id="close-button">&times;</span>
+            <h2>Meu Carrinho</h2>
+            <ul id="cart-items">
+                <!--carrinho -->
+            </ul>
+            <textarea id="cart-observations" placeholder="Insira suas observações aqui"></textarea>
+            <button id="checkout-button">Finalizar Compra</button>
+        </div>
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>

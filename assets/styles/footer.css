@@ -1,0 +1,10 @@
+.footer button  {
+    background-color: #8a0e0e;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    position: fixed;
+    width: 99.9%;
+    border: none;
+    bottom: 0;
+}
